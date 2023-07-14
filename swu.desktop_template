@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=x-www-browser -kiosk http://localhost:3001/
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=SWU
+Name=SWU
+Comment[en_US]=open browser with swu app
+Comment=open browser with swu app
+Icon=%%DIR%%/recycle.ico

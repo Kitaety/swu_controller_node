@@ -1,0 +1,11 @@
+[Service]
+ExecStart=/usr/local/nvm/versions/node/v18.16.1/bin/node --harmony %%DIR%%/server/index.js && x-www-browser -kiosk http://localhost:3001/
+Restart=always
+RestartSec=1
+User=%%USER%%
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=swu
+
+[Install]
+WantedBy=multi-user.target
